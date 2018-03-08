@@ -43,20 +43,6 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "5bf59927-788f-4d47-b160-947bd06c5c36",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "velocity",
-            "varType": 1
-        },
-        {
             "id": "43265332-f184-45a4-87db-8f84bf74fd6f",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -66,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "0",
             "varName": "flight_mode",
             "varType": 1
         },
@@ -109,7 +95,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "5",
-            "varName": "spd",
+            "varName": "ship_acceleration",
             "varType": 1
         },
         {
@@ -123,7 +109,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1",
-            "varName": "dspd",
+            "varName": "directional_speed",
             "varType": 1
         },
         {
@@ -137,7 +123,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "cooldown",
+            "varName": "projectile_cooldown",
             "varType": 1
         },
         {
@@ -151,7 +137,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "10",
-            "varName": "prospd",
+            "varName": "projectile_speed",
             "varType": 1
         }
     ],
