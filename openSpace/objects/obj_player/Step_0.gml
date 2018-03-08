@@ -1,8 +1,10 @@
 /// @description Main step program for the player ship
 
-image_angle = direction;	//Make the ship point the right way
+//Make the ship point the right way
+image_angle = direction;
 
 //Allows for multiple flight modes
+//Physics based flight
 if (flight_mode == 0){
 	if (keyboard_check(vk_up)){		//(Throttle)
 		vy -= directional_speed * dsin(direction)
